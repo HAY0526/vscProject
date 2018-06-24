@@ -4,29 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>首页</title>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <!-- <link rel="stylesheet" href="css/fonts.css"> -->
-    <!-- <link rel="stylesheet" href="css/dong.css"> -->
-    <!-- <link rel="stylesheet" href="css/all.css"> -->
     <link rel="stylesheet" href="css/headfoot.css">
     <link rel="stylesheet" href="css/index.css">
 	<script type="text/javascript">
          //flag返回值为true则说明是电脑客户端
-        function check() { 
-            var userAgentInfo=navigator.userAgent; 
+        function check() {
+            var userAgentInfo=navigator.userAgent;
             var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod", "BlackBerry", "webOS");
-            var flag=true; 
-            for(var v=0;v<Agents.length;v++) { 
-                if(userAgentInfo.indexOf(Agents[v])>0) { 
-                    flag=false; 
-                    break; 
-                } 
-            } 
-            return flag; 
+            var flag=true;
+            for(var v=0;v<Agents.length;v++) {
+                if(userAgentInfo.indexOf(Agents[v])>0) {
+                    flag=false;
+                    break;
+                }
+            }
+            return flag;
         }
 
         if (check()) {
-           
+
         }
         else {
             window.location.href = "./index_i.html";
@@ -343,7 +339,7 @@
             <p>天天少儿英语</p>
         </h6>
     </div>
-    <div class="lefts box3_r"> 
+    <div class="lefts box3_r">
         <p>精选欧美外教在线一对一课堂</p>
     </div>
 </div>
@@ -396,7 +392,7 @@
 </div>
 <!-- <script src="js/mydong.js"></script> -->
 <script src="js/jquery.js"></script>
-<script>    
+<script>
     $(function() {
         var arr = ["index","linian","ketang","app"];
         var herfs = window.location.href;
