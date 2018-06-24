@@ -1,0 +1,31 @@
+@font-face{
+    font-family: 'siyuan';
+    src: url('../fonts/SourceHanSansCN-Light.TTF');
+    src: url('../fonts/SourceHanSansCN-Light.TTF') format('truetype'),
+    url('../fonts/SourceHanSansCN-Light.otf') format('otf');
+}
+@font-face{
+    font-family: 'bold';
+    src: url('../fonts/SourceHanSansCN-Bold.otf') format('otf'),
+    url('../fonts/SourceHanSansCN-Bold.ttf') format('ttf');
+}
+@font-face{
+    font-family: 'normal';
+    src: url('../fonts/SourceHanSansCN-Normal.otf') format('otf'),
+    url('../fonts/SourceHanSansCN-Normal.ttf') format('ttf');
+}
+@font-face{
+    font-family: 'heave';
+    src: url('../fonts/SourceHanSansCN-Heavy.otf') format('otf'),
+    url('../fonts/SourceHanSansCN-Heavy.ttf') format('ttf');
+}
+@font-face{
+    font-family: 'Regular';
+    src: url('../fonts/SourceHanSansCN-Regular.otf') format('otf'),
+    url('../fonts/SourceHanSansCN-Regular.ttf') format('ttf');
+}
+@font-face{
+    font-family: 'Medium';
+    src: url('../fonts/SourceHanSansCN-Medium.otf') format('otf'),
+    url('../fonts/SourceHanSansCN-Medium.ttf') format('ttf');
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.flex1 {
+    display: flex;justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;flex-wrap: wrap;
+}
+
+.flex3 {
+    flex-direction: column;display: flex;
+}
+.flex4 {
+    display: flex;justify-content: center;
+}
+
+body {
+    font-family: "Microsoft YaHei", "微软雅黑", Arial, Helvetica, sans-serif, "宋体";
+}
+div {
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+input, button {
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+img{width: 100%;}
+.w1200{width: 1200px;margin:0 auto;}

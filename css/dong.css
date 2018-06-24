@@ -1,0 +1,406 @@
+/*.................................banner.。。。。。。。。。。*/
+.ban-left3{
+    animation-name:ban-left3;
+    animation-duration:1000ms;
+    animation-timing-function:linear;
+    animation-delay:1500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes ban-left3 {
+    from {width: 1px;}
+    to {width: 776px;}
+}
+.ban-left0{opacity: 0;
+    animation-name:ban-left0;
+    animation-duration:1000ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes ban-left0 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.ban-left1{opacity: 0;
+    animation-name:ban-left1;
+    animation-duration:1000ms;
+    animation-timing-function:linear;
+    animation-delay:1000ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes ban-left1 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.ban-left2{opacity: 0;transform:scale(0) rotate(-355deg);
+    animation-name:ban-left2;
+    animation-duration:500ms;
+    animation-timing-function:linear;
+    animation-delay:1000ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes ban-left2 {
+    from {opacity: 0;transform:scale(0) rotate(-355deg)}
+    to {opacity: 1;transform:scale(1) rotate(0)}
+}
+
+/*.................................shou2.。。。。。。。。。。*/
+.shou2-ol1{height: 0px;overflow: hidden;
+    animation-name:shou2-ol1;
+    animation-duration:1300ms;
+    animation-timing-function:linear;
+    animation-delay:700ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes shou2-ol1 {
+    from {height: 0px;}
+    to {height: 171px;}
+}
+.shou2-ol2{height: 1px;
+    animation-name:shou2-ol2;
+    animation-duration:1300ms;
+    animation-timing-function:linear;
+    animation-delay:2000ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes shou2-ol2 {
+    from {height: 1px;}
+    to {height: 171px;}
+}
+/*.................................shou3.。。。。。。。。。。*/
+.shou3-Dl1{-webkit-transform: translateX(200px);opacity: 0;
+    animation-name:shou3-Dl1;
+    animation-duration:500ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes shou3-Dl1 {
+    from {opacity: 0;-webkit-transform: translateX(200px);}
+    to {opacity: 1;-webkit-transform: translateX(0);}
+}
+/*.................................shou4.。。。。。。。。。。*/
+.shou4-lun0{width: 100%;position: absolute;top:0;left:0;right:0;margin:0 auto;opacity: 0;
+    animation-name:shou4-lun0;
+    animation-duration:500ms;
+    animation-timing-function:linear;
+    animation-delay:0ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+.shou4-lun1{width: 100%;position: absolute;top:0;left:0;right:0;margin:0 auto;opacity: 0;
+    animation-name:shou4-lun1;
+    animation-duration:500ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+.shou4-lun2{width: 100%;position: absolute;top:0;left:0;right:0;margin:0 auto;opacity: 0;
+    animation-name:shou4-lun2;
+    animation-duration:500ms;
+    animation-timing-function:linear;
+    animation-delay:1000ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+.shou4-lun3{width: 100%;position: absolute;top:0;left:0;right:0;margin:0 auto;opacity: 0;
+    animation-name:shou4-lun3;
+    animation-duration:500ms;
+    animation-timing-function:linear;
+    animation-delay:1500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+
+
+.shou4-x1{opacity: 0;
+    animation-name:shou4-x1;
+    animation-duration:100ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+.shou4-x2{opacity: 0;
+    animation-name:shou4-x2;
+    animation-duration:100ms;
+    animation-timing-function:linear;
+    animation-delay:1000ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+.shou4-x3{opacity: 0;
+    animation-name:shou4-x3;
+    animation-duration:100ms;
+    animation-timing-function:linear;
+    animation-delay:1500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+.shou4-x4{opacity: 0;
+    animation-name:shou4-x4;
+    animation-duration:100ms;
+    animation-timing-function:linear;
+    animation-delay:2000ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+
+.shou4-op1{opacity: 0;
+    animation-name:shou4-op1;
+    animation-duration:100ms;
+    animation-timing-function:linear;
+    animation-delay:200ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+.shou4-op2{opacity: 0;
+    animation-name:shou4-op1;
+    animation-duration:100ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+.shou4-op3{opacity: 0;
+    animation-name:shou4-op1;
+    animation-duration:100ms;
+    animation-timing-function:linear;
+    animation-delay:1000ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+.shou4-op4{opacity: 0;
+    animation-name:shou4-op1;
+    animation-duration:100ms;
+    animation-timing-function:linear;
+    animation-delay:1500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+
+@keyframes shou4-lun0 {
+    from {transform:rotate(-90deg);
+        -ms-transform:rotate(-90deg); /* IE 9 */
+        -webkit-transform:rotate(-90deg);
+        opacity: 0;}
+    to {transform:rotate(0deg);
+        -ms-transform:rotate(0deg); /* IE 9 */
+        -webkit-transform:rotate(0deg);
+        opacity: 1;}
+}
+@keyframes shou4-lun1 {
+    from {transform:rotate(-90deg);
+        -ms-transform:rotate(-90deg); /* IE 9 */
+        -webkit-transform:rotate(-90deg);
+        opacity: 0;}
+    to {transform:rotate(0deg);
+        -ms-transform:rotate(0deg); /* IE 9 */
+        -webkit-transform:rotate(0deg);
+        opacity: 1;}
+}
+@keyframes shou4-lun2 {
+    from {transform:rotate(-90deg);
+        -ms-transform:rotate(-90deg); /* IE 9 */
+        -webkit-transform:rotate(-90deg);
+        opacity: 0;}
+    to {transform:rotate(0deg);
+        -ms-transform:rotate(0deg); /* IE 9 */
+        -webkit-transform:rotate(0deg);
+        opacity: 1;}
+}
+@keyframes shou4-lun3 {
+    from {transform:rotate(-90deg);
+        -ms-transform:rotate(-90deg); /* IE 9 */
+        -webkit-transform:rotate(-90deg);
+        opacity: 0;}
+    to {transform:rotate(0deg);
+        -ms-transform:rotate(0deg); /* IE 9 */
+        -webkit-transform:rotate(0deg);
+        opacity: 1;}
+}
+
+@keyframes shou4-x1 {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@keyframes shou4-x2 {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@keyframes shou4-x3 {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@keyframes shou4-x4 {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+
+@keyframes shou4-op1 {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@keyframes shou4-op2  {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@keyframes shou4-op3  {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+@keyframes shou4-op4  {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+/*.................................shou8.。。。。。。。。。。*/
+.shou8-D{opacity: 0;
+     animation-name:shou8-D;
+     animation-duration:500ms;
+     animation-timing-function:linear;
+     animation-delay:500ms;
+     animation-iteration-count:1;
+     animation-fill-mode:forwards;
+ }
+@keyframes shou8-D {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.shou8-2{opacity: 0;
+    animation-name:shou8-2;
+    animation-duration:500ms;
+    animation-timing-function:linear;
+    animation-delay:1000ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes shou8-2 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/*..............第二页。。oli4，，，，，，，，，，，*/
+.xinxin{opacity: 0;transform: translate(-400px,-192px);width: 392px;height: 384px;
+    animation-name:xinxin;
+    animation-duration:700ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes xinxin {
+    from {opacity: 0;transform: translate(-400px,-192px);width: 392px;height: 384px;}
+    to {opacity: 1;transform: translate(0,0);width: 49px;height: 48px;}
+}
+/*..............第二页。。oli4，，，，，，，，，，，*/
+.li5{
+    animation-name:li5;
+    animation-duration:2000ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes li5 {
+    from {width: 1200px;}
+    to {width: 0;}
+}
+/*..............第二页。。oli3，，，，，，，，，，，*/
+.li3-tiao{-webkit-transform: translateY(200px);
+    animation-name:li3-tiao;
+    animation-duration:700ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes li3-tiao {
+    0%   {-webkit-transform: translateY(200px);}
+    100% {-webkit-transform: translateY(5px);}
+}
+/*..............第二页。。oli2，，，，，，，，，，，*/
+.myoli2{opacity: 0;-webkit-transform: translateX(200px);
+    animation-name:myoli2;
+    animation-duration:500ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes myoli2 {
+    from {opacity: 0;-webkit-transform: translateX(200px);}
+    to {opacity: 1;-webkit-transform: translateX(0);}
+}
+/*..............第二页。。oli1，，，，，，，，，，，*/
+.shu{transform:rotate(-9deg);
+    animation-name:shu;
+    animation-duration:2000ms;
+    animation-timing-function:linear;
+    animation-delay:0ms;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+}
+@keyframes shu {
+    0%   {transform:rotate(-4deg);transform-origin:50% 100%;
+        -ms-transform:rotate(-4deg);-ms-transform-origin:50% 100%;
+        -webkit-transform:rotate(-4deg);-webkit-transform-origin:50% 100%;}
+    50%  {transform:rotate(4deg);transform-origin:50% 100%;
+        -ms-transform:rotate(4deg);-ms-transform-origin:50% 100%;
+        -webkit-transform:rotate(4deg);-webkit-transform-origin:50% 100%;}
+    100% {transform:rotate(-4deg);transform-origin:50% 100%;
+        -ms-transform:rotate(-4deg);-ms-transform-origin:50% 100%;
+        -webkit-transform:rotate(-4deg);-webkit-transform-origin:50% 100%;}
+}
+.deng{transform:scale(0);
+    animation-name:deng;
+    animation-duration:1000ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes deng {
+    0%   {transform:scale(0) rotate(0)}
+    60%  {transform:scale(1.5) rotate(10deg)}
+    70%  {transform:scale(0.8) rotate(-10deg)}
+    80%  {transform:scale(1.2) rotate(10deg)}
+    90%  {transform:scale(0.9) rotate(-10deg)}
+    100% {transform:scale(1) rotate(0deg)}
+}
+/*..............第二页。。banner2，，，，，，，，，，，*/
+.dfeiji{-webkit-transform: translateY(5px);
+    animation-name:dfeiji;
+    animation-duration:5000ms;
+    animation-timing-function:linear;
+    animation-delay:500ms;
+    animation-iteration-count:infinite;
+    animation-fill-mode:forwards;
+}
+@keyframes dfeiji{
+    0%   {-webkit-transform: translateY(0px);}
+    50%  {-webkit-transform: translateY(-30px);}
+    100% {-webkit-transform: translateY(0px);}
+}
+.obanner2-Dp{opacity: 0;
+    animation-name:obanner2-Dp;
+    animation-duration:500ms;
+    animation-timing-function:linear;
+    animation-delay:300ms;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+}
+@keyframes obanner2-Dp {
+    from {opacity: 0;-webkit-transform: translateY(100px);}
+    to {opacity: 1;-webkit-transform: translateY(0);}
+}
