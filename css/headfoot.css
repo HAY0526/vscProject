@@ -54,7 +54,7 @@ a{
 .foot-1{overflow: hidden; }
 .foot-1 li{float: left; margin-left: 66px; }
 .foot-2{margin-top: 80px; overflow: hidden; font-size: 18px; color: #999999; }
-.foot-2 li{float: left; } 
-.foot-2 li:nth-of-type(1){margin: 0 415px 0 66px; }
-.foot-2 li:nth-of-type(2){font-size: 15px; }
+.foot-2 li{float: left; }
+.foot-2 li:nth-of-type(1){margin: 0 0px 0 66px; }
+.foot-2 li:nth-of-type(2){font-size: 15px;float: right; }
 .foot-2 li:nth-of-type(2) span{margin:0 15px 0 50px; }
