@@ -100,9 +100,9 @@ body{
 .tab1{
 	width: 9.45rem;
 	height: 4.58rem;
-	box-shadow: 1px 1px 0.07rem 0rem 
+	box-shadow: 1px 1px 0.07rem 0rem
 		rgba(0, 0, 0, 0.2);
-	margin-left:.275rem; 
+	margin-left:.275rem;
 	border-radius: .1rem;
 	overflow: hidden;
 	position: relative;
@@ -305,10 +305,10 @@ body{
 	border: solid 1px #c5beb4;
 	position: relative;
 	z-index: 2;
-} 
+}
 .box5>li:nth-of-type(2n+2){
 	background: #FBFAF8;
-} 
+}
 .xing{
 	overflow: hidden;
 }
@@ -493,7 +493,7 @@ body{
 }
 .box10 p{
 	margin:.25rem 1.17rem 0 0;
-	text-align:right; 
+	text-align:right;
 	height: 0.5rem;
 	font-family: SourceHanSansCN-Bold;
 	font-size: 0.46rem;
@@ -543,14 +543,14 @@ body{
 
 }
 .box12 li:nth-of-type(2n+1){
-	box-shadow: 0 0 0.64rem 0 
+	box-shadow: 0 0 0.64rem 0
 		rgba(4, 0, 0, 0.15);
 		position: relative;
 		z-index: 2;
 }
 .box12 img{
 	width: 2.04rem;
-	margin-right: .47rem;
+	margin-right: .17rem;
 }
 .box12 li p{
 	height: 1.72rem;
