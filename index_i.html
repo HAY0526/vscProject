@@ -544,7 +544,7 @@
   </div>
   <script src="js/jquery.js"></script>
   <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
-  <script src="./js/layer_mobile/layer.js"></script>
+  <script src="./js/layer/mobile/layer.js"></script>
   <script>
     function submitPhone() {
       var phoneNumber = $("#phoneNumber").val();
@@ -562,9 +562,21 @@
         dataType: "json",
         success: function (data) {
           if (data.result.status =="success") {
-            layer.open({ content: data.result.msg, skin: 'msg', time: 2 });
+            layer.open({
+              content: '已经提交成功，感谢您的关注，我们会尽快联系您。'
+              ,btn: ['确定']
+              ,yes: function(index){
+                layer.closeAll();
+              }
+            });
           } else {
-            layer.open({ content: data.result.msg, skin: 'msg', time: 2 });
+            layer.open({
+              content: data.result.msg
+              ,btn: ['确定']
+              ,yes: function(index){
+                layer.closeAll();
+              }
+            });
           }
         }
       });
