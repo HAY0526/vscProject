@@ -528,7 +528,7 @@
       }
       $.ajax({
         type: "GET",
-        url: "http://59.110.40.75:8888/user-manager/register/carephone?source=app&phone=" + phoneNumber,
+        url: "http://59.110.40.75:8888/user-manager/register/carephone?source=web&phone=" + phoneNumber,
         dataType: "json",
         success: function (data) {
           if (data.result.status == "success") {
